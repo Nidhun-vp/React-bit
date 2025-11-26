@@ -1,0 +1,14 @@
+.aurora-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;          /* Stay behind content */
+  pointer-events: none; /* Do not block clicks */
+  background-color: #0d0d1a; /* Dark night base */
+}
+
+canvas {
+  display: block;
+}

@@ -1,0 +1,20 @@
+.prism-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;               
+  pointer-events: none;       
+}
+
+/* Make page background transparent so Prism is visible */
+html, body, #root {
+  background: transparent !important;
+}
+
+
+.prism-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
